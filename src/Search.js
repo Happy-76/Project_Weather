@@ -48,7 +48,7 @@ const Search = () => {
   return (
     <div>
       <div className='search_place'>
-      <input type='text' placeholder='search....' id='search' value={City} onChange={(e) => setCity(e.target.value)}/> 
+      <input type='text' placeholder='Enter....' id='search' value={City} onChange={(e) => setCity(e.target.value)}/> 
       <button type='submit' id='sbutton' onClick={getInfo}> Get </button>
       </div>
 

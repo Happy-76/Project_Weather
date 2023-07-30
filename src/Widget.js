@@ -31,6 +31,9 @@ const Widget = ({temp,
           case "Mist":
             setWeatheState("wi-dust");
             break;
+          case "Rain":
+            setWeatheState("wi-day-rain");
+            break;
   
           default:
             setWeatheState("wi-day-sunny");
